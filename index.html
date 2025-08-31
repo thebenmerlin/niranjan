@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niranjan Prasad - Developer Analytics Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Side Navigation -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">
+                <span class="logo-text">NP</span>
+            </div>
+            <h2 class="nav-title">Niranjan Prasad</h2>
+        </div>
+        
+        <div class="nav-menu" id="nav-menu">
+            <button class="nav-item active" data-page="home">
+                <span class="nav-icon">🏠</span>
+                <span class="nav-text">Home</span>
+            </button>
+            <button class="nav-item" data-page="education">
+                <span class="nav-icon">🎓</span>
+                <span class="nav-text">Education</span>
+            </button>
+            <button class="nav-item" data-page="projects">
+                <span class="nav-icon">💻</span>
+                <span class="nav-text">Projects</span>
+            </button>
+            <button class="nav-item" data-page="skills">
+                <span class="nav-icon">⚡</span>
+                <span class="nav-text">Skills</span>
+            </button>
+            <button class="nav-item" data-page="experience">
+                <span class="nav-icon">💼</span>
+                <span class="nav-text">Experience</span>
+            </button>
+            <button class="nav-item" data-page="certifications">
+                <span class="nav-icon">🏆</span>
+                <span class="nav-text">Certifications</span>
+            </button>
+            <button class="nav-item" data-page="achievements">
+                <span class="nav-icon">🌟</span>
+                <span class="nav-text">Achievements</span>
+            </button>
+            <button class="nav-item" data-page="leetcode">
+                <span class="nav-icon">📊</span>
+                <span class="nav-text">LeetCode</span>
+            </button>
+        </div>
+        
+        <div class="sidebar-footer">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/niranjanp-dev" target="_blank" class="social-link">💼</a>
+                <a href="https://github.com/niranjanprasad" target="_blank" class="social-link">💻</a>
+                <a href="mailto:niranjanprasad1641@gmail.com" class="social-link">📧</a>
+            </div>
+        </div>
+        
+        <div class="mobile-toggle" id="mobile-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Page -->
+        <section class="page" id="home">
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h1 class="hero-title">Niranjan Prasad</h1>
+                    <div class="hero-subtitle">
+                        <span class="typing-text">Building with Java | Solving with DSA | Exploring AI-ML</span>
+                    </div>
+                    <p class="hero-description">Computer Science & Business Systems Student | CGPA 9.63 | Silver Medalist</p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">9.63</span>
+                            <span class="stat-label">CGPA</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">78</span>
+                            <span class="stat-label">LeetCode Problems</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">6</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">6</span>
+                            <span class="stat-label">Certifications</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LeetCode Heatmap Section -->
+            <div class="leetcode-section">
+                <h2 class="section-title">LeetCode Journey</h2>
+                <div class="leetcode-card">
+                    <div class="leetcode-heatmap">
+                        <img src="https://leetcard.jacoblin.cool/niranjanprasad?ext=heatmap" alt="LeetCode Stats" class="heatmap-image">
+                    </div>
+                    <div class="leetcode-info">
+                        <div class="leetcode-stats">
+                            <div class="leetcode-stat">
+                                <span class="stat-value">78</span>
+                                <span class="stat-name">Problems Solved</span>
+                            </div>
+                            <div class="leetcode-stat">
+                                <span class="stat-value">1,573,603</span>
+                                <span class="stat-name">Current Rank</span>
+                            </div>
+                            <div class="leetcode-stat">
+                                <span class="stat-value">56</span>
+                                <span class="stat-name">Active Days</span>
+                            </div>
+                        </div>
+                        <a href="https://leetcode.com/niranjanprasad" target="_blank" class="leetcode-link">
+                            View Full LeetCode Profile →
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Section -->
+            <div class="about-section">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-card">
+                    <p>Aspiring Computer Science professional with a strong foundation in Java, Web Development, and Data Structures & Algorithms (DSA). Experienced in organizing college-level events, public speaking, and team collaboration. Successfully developed impactful projects, complemented by industry-relevant certifications.</p>
+                    <p>My long-term vision is to build a career in technology, gain industrial experience, and eventually establish a tech-driven startup that creates innovative solutions with societal impact.</p>
+                </div>
+            </div>
+
+            <!-- Quick Skills Overview -->
+            <div class="skills-overview">
+                <h2 class="section-title">Tech Stack</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag primary">Java</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">SQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Web Technologies</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag primary">React.js</span>
+                            <span class="skill-tag">Node.js</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Platforms</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">IntelliJ IDEA</span>
+                            <span class="skill-tag">Google Colab</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Page -->
+        <section class="page hidden" id="education">
+            <div class="page-header">
+                <h1 class="page-title">Education</h1>
+                <p class="page-subtitle">Academic Excellence & Continuous Learning</p>
+            </div>
+
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-card">
+                        <div class="education-header">
+                            <h3>B.Tech - Computer Science and Business Systems</h3>
+                            <span class="duration">2023 - 2027</span>
+                        </div>
+                        <div class="education-details">
+                            <div class="institution">JSPM's Rajarshi Shahu College of Engineering</div>
+                            <div class="affiliation">Savitribai Phule Pune University</div>
+                            <div class="cgpa">Current CGPA: <span class="highlight">9.63/10</span></div>
+                            <div class="achievement">🏆 Silver Medalist in 1st year</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-card">
+                        <div class="education-header">
+                            <h3>12th Standard</h3>
+                            <span class="duration">2023</span>
+                        </div>
+                        <div class="education-details">
+                            <div class="institution">Pirojsha Godrej Junior College, Bordi, Maharashtra</div>
+                            <div class="percentage">Percentage: <span class="highlight">85.56%</span></div>
+                            <div class="achievement">🏆 Secured 3rd position in overall college</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-card">
+                        <div class="education-header">
+                            <h3>10th Standard</h3>
+                            <span class="duration">2021</span>
+                        </div>
+                        <div class="education-details">
+                            <div class="institution">M.B.B.I Educational Academy, Palghar, Maharashtra</div>
+                            <div class="percentage">Percentage: <span class="highlight">84.60%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Semester Performance -->
+            <div class="semester-section">
+                <h2 class="section-title">Semester-wise Performance</h2>
+                <div class="semester-grid">
+                    <div class="semester-card">
+                        <div class="semester-number">I</div>
+                        <div class="sgpa">9.90</div>
+                        <div class="performance excellent">Excellent</div>
+                    </div>
+                    <div class="semester-card">
+                        <div class="semester-number">II</div>
+                        <div class="sgpa">9.81</div>
+                        <div class="performance excellent">Excellent</div>
+                    </div>
+                    <div class="semester-card">
+                        <div class="semester-number">III</div>
+                        <div class="sgpa">9.72</div>
+                        <div class="performance excellent">Excellent</div>
+                    </div>
+                    <div class="semester-card">
+                        <div class="semester-number">IV</div>
+                        <div class="sgpa">9.63</div>
+                        <div class="performance good">Very Good</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Page -->
+        <section class="page hidden" id="projects">
+            <div class="page-header">
+                <h1 class="page-title">Projects</h1>
+                <p class="page-subtitle">Building innovative solutions with cutting-edge technology</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <h3>AI Resume Verifier</h3>
+                        <span class="project-status in-progress">In Development</span>
+                    </div>
+                    <p class="project-description">AI-powered tool that compares resumes with job descriptions and suggests improvements</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">OpenAI API</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+                    <div class="project-type">Industry Project</div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>AI Career Coach Agent</h3>
+                        <span class="project-status completed">Completed</span>
+                    </div>
+                    <p class="project-description">Full-stack application providing AI-driven career guidance and recommendations</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">AI/ML</span>
+                        <span class="tech-tag">Full-stack</span>
+                    </div>
+                    <div class="project-type">Academic Project</div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Student Wellness Tracker</h3>
+                        <span class="project-status completed">Completed</span>
+                    </div>
+                    <p class="project-description">Database-driven application for tracking student health and wellness metrics</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Database</span>
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">Web Development</span>
+                    </div>
+                    <div class="project-type">Academic Project</div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>CGPA Calculator Web Application</h3>
+                        <span class="project-status completed">Completed</span>
+                    </div>
+                    <p class="project-description">Web-based CGPA calculator for students to calculate cumulative grades</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-type">Personal Project</div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Resume Analyzer</h3>
+                        <span class="project-status completed">Completed</span>
+                    </div>
+                    <p class="project-description">Automated tool for analyzing and improving resume content and structure</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">AI/ML</span>
+                        <span class="tech-tag">NLP</span>
+                    </div>
+                    <div class="project-type">Academic Project</div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>CarbonMinds</h3>
+                        <span class="project-status completed">Completed</span>
+                    </div>
+                    <p class="project-description">Environmental awareness project focusing on carbon footprint tracking and reduction</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Web Development</span>
+                        <span class="tech-tag">Data Analysis</span>
+                    </div>
+                    <div class="project-type">Academic Project</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Page -->
+        <section class="page hidden" id="skills">
+            <div class="page-header">
+                <h1 class="page-title">Skills & expertise</h1>
+                <p class="page-subtitle">Technical proficiencies and domain knowledge</p>
+            </div>
+
+            <div class="skills-detailed">
+                <div class="skill-section">
+                    <h2 class="section-title">Programming Languages</h2>
+                    <div class="skill-items">
+                        <div class="skill-item advanced">
+                            <div class="skill-name">Java</div>
+                            <div class="skill-level">Advanced</div>
+                        </div>
+                        <div class="skill-item intermediate">
+                            <div class="skill-name">Python</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="skill-item intermediate">
+                            <div class="skill-name">C++</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="skill-item intermediate">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="skill-item beginner">
+                            <div class="skill-name">SQL</div>
+                            <div class="skill-level">Beginner</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-section">
+                    <h2 class="section-title">Web Technologies</h2>
+                    <div class="skill-items">
+                        <div class="skill-item advanced">
+                            <div class="skill-name">HTML</div>
+                            <div class="skill-level">Advanced</div>
+                        </div>
+                        <div class="skill-item advanced">
+                            <div class="skill-name">CSS</div>
+                            <div class="skill-level">Advanced</div>
+                        </div>
+                        <div class="skill-item intermediate">
+                            <div class="skill-name">React.js</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="skill-item beginner">
+                            <div class="skill-name">Node.js</div>
+                            <div class="skill-level">Beginner</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-section">
+                    <h2 class="section-title">Development Tools</h2>
+                    <div class="skill-items">
+                        <div class="skill-item advanced">
+                            <div class="skill-name">Git & GitHub</div>
+                            <div class="skill-level">Advanced</div>
+                        </div>
+                        <div class="skill-item advanced">
+                            <div class="skill-name">VS Code</div>
+                            <div class="skill-level">Advanced</div>
+                        </div>
+                        <div class="skill-item intermediate">
+                            <div class="skill-name">IntelliJ IDEA</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="skill-item intermediate">
+                            <div class="skill-name">Google Colab</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-section">
+                    <h2 class="section-title">Domain Expertise</h2>
+                    <div class="expertise-grid">
+                        <div class="expertise-card">
+                            <h3>Data Structures & Algorithms</h3>
+                            <p>Strong foundation in DSA with 78 problems solved on LeetCode</p>
+                        </div>
+                        <div class="expertise-card">
+                            <h3>Web Development</h3>
+                            <p>Full-stack development using modern frameworks and tools</p>
+                        </div>
+                        <div class="expertise-card">
+                            <h3>AI & Machine Learning</h3>
+                            <p>Exploring AI-ML driven solutions for real-world problems</p>
+                        </div>
+                        <div class="expertise-card">
+                            <h3>Database Management</h3>
+                            <p>Experience with MongoDB and relational databases</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Page -->
+        <section class="page hidden" id="experience">
+            <div class="page-header">
+                <h1 class="page-title">Experience</h1>
+                <p class="page-subtitle">Professional internships and leadership roles</p>
+            </div>
+
+            <div class="experience-timeline">
+                <div class="timeline-section">
+                    <h2 class="section-title">Internships</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">1 month</div>
+                            <div class="timeline-content">
+                                <h3>Marketing Intern</h3>
+                                <div class="company">CORIZO - Remote</div>
+                                <p>Worked on marketing strategies and digital campaigns. Enhanced marketing and communication skills through practical application of digital marketing techniques.</p>
+                                <div class="skills-learned">Digital Marketing, Campaign Management</div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-date">2 months</div>
+                            <div class="timeline-content">
+                                <h3>AI ML Virtual Intern</h3>
+                                <div class="company">AICTE - Virtual</div>
+                                <p>Virtual internship focused on AI and Machine Learning applications. Gained practical AI/ML project experience working with various frameworks and tools.</p>
+                                <div class="skills-learned">AI/ML frameworks, Python, Data Science</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-section">
+                    <h2 class="section-title">Leadership & Memberships</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">Jun 2025 - Present</div>
+                            <div class="timeline-content">
+                                <h3>Public Relations Officer</h3>
+                                <div class="company">Rotaract Club of RSCOE</div>
+                                <p>Leading public relations and community engagement initiatives. Organizing events and managing community outreach programs.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-date">Dec 2024 - Present</div>
+                            <div class="timeline-content">
+                                <h3>Core Member</h3>
+                                <div class="company">Professional Development Club</div>
+                                <p>Technical management and workshop organization. Facilitating skill development sessions and technical workshops for students.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-date">Sep 2024 - Present</div>
+                            <div class="timeline-content">
+                                <h3>Public Relations Coordinator</h3>
+                                <div class="company">Association of CSBS</div>
+                                <p>Event organizing, LinkedIn management, hackathons, and donation drives. Managing social media presence and coordinating college events.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Page -->
+        <section class="page hidden" id="certifications">
+            <div class="page-header">
+                <h1 class="page-title">Certifications</h1>
+                <p class="page-subtitle">Industry-recognized credentials and continuous learning</p>
+            </div>
+
+            <div class="certifications-grid">
+                <div class="certification-card featured">
+                    <div class="cert-header">
+                        <h3>Tata Young Professional Certificate</h3>
+                        <div class="cert-date">August 2025</div>
+                    </div>
+                    <div class="cert-issuer">Tata Group</div>
+                    <div class="cert-skills">Professional Development</div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-header">
+                        <h3>Introduction to MongoDB</h3>
+                        <div class="cert-date">June 2025</div>
+                    </div>
+                    <div class="cert-issuer">MongoDB</div>
+                    <div class="cert-id">ID: MDBtp2rn9p5dq</div>
+                    <div class="cert-skills">Database Management System, MongoDB</div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-header">
+                        <h3>Oracle Java Certification: Data Types</h3>
+                        <div class="cert-date">April 2025</div>
+                    </div>
+                    <div class="cert-issuer">LinkedIn/Oracle</div>
+                    <div class="cert-skills">Java Programming</div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-header">
+                        <h3>Certificate for Completion of C++ Training</h3>
+                        <div class="cert-date">March 2025</div>
+                    </div>
+                    <div class="cert-issuer">IIT Bombay Spoken Tutorial</div>
+                    <div class="cert-skills">C++ Programming</div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-header">
+                        <h3>Artificial Intelligence Fundamentals</h3>
+                        <div class="cert-date">January 2025</div>
+                    </div>
+                    <div class="cert-issuer">IBM</div>
+                    <div class="cert-skills">AI/ML Fundamentals</div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-header">
+                        <h3>Soft Skills and Personality</h3>
+                        <div class="cert-date">April 2024</div>
+                    </div>
+                    <div class="cert-issuer">NPTEL (IIT Kanpur)</div>
+                    <div class="cert-skills">Personality Development, Soft Skills</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Page -->
+        <section class="page hidden" id="achievements">
+            <div class="page-header">
+                <h1 class="page-title">Achievements</h1>
+                <p class="page-subtitle">Recognition, awards, and notable accomplishments</p>
+            </div>
+
+            <div class="achievements-container">
+                <div class="achievement-category">
+                    <h2 class="section-title">Academic Excellence</h2>
+                    <div class="achievement-grid">
+                        <div class="achievement-card gold">
+                            <div class="achievement-icon">🥈</div>
+                            <h3>Silver Medalist</h3>
+                            <p>1st year at JSPM's Rajarshi Shahu College of Engineering</p>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">🏆</div>
+                            <h3>3rd Position Overall</h3>
+                            <p>Secured 3rd position in overall college during 12th standard</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-category">
+                    <h2 class="section-title">Technical Achievements</h2>
+                    <div class="achievement-grid">
+                        <div class="achievement-card">
+                            <div class="achievement-icon">💻</div>
+                            <h3>24-hackathon Finalist</h3>
+                            <p>Finalist of 24-hackathon at national level</p>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">📊</div>
+                            <h3>LeetCode Progress</h3>
+                            <p>Solved 78+ problems with consistent practice</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-category">
+                    <h2 class="section-title">Leadership & Community</h2>
+                    <div class="achievement-grid">
+                        <div class="achievement-card">
+                            <div class="achievement-icon">👥</div>
+                            <h3>Class Representative</h3>
+                            <p>Class Representative with successful policy implementations</p>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">🌐</div>
+                            <h3>LinkedIn Networking</h3>
+                            <p>500+ connections on LinkedIn with active professional networking</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-category">
+                    <h2 class="section-title">Career Goals</h2>
+                    <div class="goals-section">
+                        <div class="goals-column">
+                            <h3>Short-term Goals</h3>
+                            <ul class="goals-list">
+                                <li>Complete B.Tech degree with distinction</li>
+                                <li>Gain more industry experience through internships</li>
+                                <li>Enhance AI/ML and full-stack development skills</li>
+                                <li>Contribute to open-source projects</li>
+                            </ul>
+                        </div>
+                        <div class="goals-column">
+                            <h3>Long-term Vision</h3>
+                            <ul class="goals-list">
+                                <li>Build a career in technology with focus on AI/ML</li>
+                                <li>Gain substantial industrial experience in tech companies</li>
+                                <li>Establish a tech-driven startup with societal impact</li>
+                                <li>Become a recognized contributor in the tech community</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LeetCode Page -->
+        <section class="page hidden" id="leetcode">
+            <div class="page-header">
+                <h1 class="page-title">LeetCode Analytics</h1>
+                <p class="page-subtitle">Coding journey and problem-solving statistics</p>
+            </div>
+
+            <div class="leetcode-dashboard">
+                <div class="leetcode-stats-grid">
+                    <div class="stat-card primary">
+                        <div class="stat-icon">💻</div>
+                        <div class="stat-number">78</div>
+                        <div class="stat-label">Problems Solved</div>
+                    </div>
+                    <div class="stat-card secondary">
+                        <div class="stat-icon">📈</div>
+                        <div class="stat-number">1,573,603</div>
+                        <div class="stat-label">Current Rank</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🔥</div>
+                        <div class="stat-number">56</div>
+                        <div class="stat-label">Active Days</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">⚡</div>
+                        <div class="stat-number">10</div>
+                        <div class="stat-label">Max Streak</div>
+                    </div>
+                </div>
+
+                <div class="leetcode-heatmap-container">
+                    <h2 class="section-title">Coding Activity</h2>
+                    <div class="heatmap-card">
+                        <img src="https://leetcard.jacoblin.cool/niranjanprasad?ext=heatmap" alt="LeetCode Heatmap" class="full-heatmap">
+                        <a href="https://leetcode.com/niranjanprasad" target="_blank" class="profile-link">
+                            View Full Profile on LeetCode →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="skills-breakdown">
+                    <h2 class="section-title">Skills Breakdown</h2>
+                    <div class="skills-categories">
+                        <div class="skill-category-card">
+                            <h3>Advanced Skills</h3>
+                            <div class="skill-items">
+                                <div class="skill-badge advanced">Dynamic Programming (13)</div>
+                                <div class="skill-badge advanced">Backtracking (2)</div>
+                                <div class="skill-badge advanced">Divide and Conquer (2)</div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category-card">
+                            <h3>Intermediate Skills</h3>
+                            <div class="skill-items">
+                                <div class="skill-badge intermediate">Math (19)</div>
+                                <div class="skill-badge intermediate">Hash Table (13)</div>
+                                <div class="skill-badge intermediate">Binary Search (10)</div>
+                                <div class="skill-badge intermediate">Recursion (5)</div>
+                                <div class="skill-badge intermediate">Bit Manipulation (4)</div>
+                                <div class="skill-badge intermediate">Greedy (3)</div>
+                                <div class="skill-badge intermediate">Sliding Window (3)</div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category-card">
+                            <h3>Fundamental Skills</h3>
+                            <div class="skill-items">
+                                <div class="skill-badge fundamental">Array (51)</div>
+                                <div class="skill-badge fundamental">Two Pointers (15)</div>
+                                <div class="skill-badge fundamental">Sorting (14)</div>
+                                <div class="skill-badge fundamental">String (13)</div>
+                                <div class="skill-badge fundamental">Matrix (9)</div>
+                                <div class="skill-badge fundamental">Stack (3)</div>
+                                <div class="skill-badge fundamental">Enumeration (2)</div>
+                                <div class="skill-badge fundamental">Linked List (2)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
